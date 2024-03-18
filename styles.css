@@ -1,0 +1,12 @@
+#canvas-container {
+    background-color: #f0f0f0; /* Set the background color */
+    padding: 20px; /* Add padding for better visibility */
+}
+
+#drawing-canvas {
+    border: 1px solid #ccc; /* Add a border for better visualization */
+}
+
+#controls {
+    margin-top: 20px;
+}

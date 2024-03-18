@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Drawing App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="canvas-container">
+        <canvas id="drawing-canvas" width="800" height="600"></canvas>
+    </div>
+    <div id="controls">
+        <input type="text" id="text-input" placeholder="Enter text">
+        <button id="add-text-btn">Add Text</button>
+        <button id="add-polyline-btn">Add Polyline</button>
+        <button id="add-circle-btn">Add Circle</button>
+        <button id="save-btn">Save</button>
+        <input type="file" id="file-input" style="display: none;"> <!-- File input element for opening files -->
+        <button id="open-btn">Open</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
