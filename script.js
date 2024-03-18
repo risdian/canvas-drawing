@@ -7,9 +7,10 @@ document.addEventListener("DOMContentLoaded", function() {
     let offsetX, offsetY; // Variables to store the offset between the mouse position and the shape position
     let isMoving = false; // Flag to track if a shape is currently being moved
 
-    // Function to draw all shapes stored in the shapes array
+    // Function to draw all shapes stored in the shapes array with increased stroke width
     function drawShapes() {
         context.clearRect(0, 0, canvas.width, canvas.height); // Clear the canvas
+        context.lineWidth = 5; // Set the stroke width to 2 pixels (you can adjust this value as needed)
         shapes.forEach(shape => {
             context.beginPath();
             if (shape.type === "text") {
@@ -22,9 +23,10 @@ document.addEventListener("DOMContentLoaded", function() {
             } else if (shape.type === "circle") {
                 context.arc(shape.x, shape.y, shape.radius, 0, Math.PI * 2);
             }
-            context.stroke();
+            context.stroke(); // Stroke the path with the updated line width
         });
     }
+
 
     // Function to handle adding text to the canvas
     function addText(text, id) {
