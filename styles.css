@@ -1,10 +1,10 @@
 #canvas-container {
-    background-color: #f0f0f0; /* Set the background color */
-    padding: 20px; /* Add padding for better visibility */
+    background-color: #f0f0f0; 
+    padding: 20px; 
 }
 
 #drawing-canvas {
-    border: 1px solid #ccc; /* Add a border for better visualization */
+    border: 1px solid #ccc; 
 }
 
 #controls {
