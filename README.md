@@ -16,7 +16,7 @@ This is a simple web application that enables users to draw text, polylines, and
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/canvas-drawing-app.git
+   git clone https://github.com/risdian/canvas-drawing.git
    ```
 
 2. **Open the Application:**
@@ -28,6 +28,7 @@ This is a simple web application that enables users to draw text, polylines, and
 4. **Manipulating Shapes:**
    - Click on a shape to select it. 
    - Once selected, drag the shape with your mouse to move it.
+   - Press the "Enter" key to confirm the new position of the shape.
    - Press the "Delete" key to remove the selected shape.
 
 5. **Saving and Loading:**
